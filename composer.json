@@ -1,36 +1,36 @@
 {
-    "name": "laravie/dhosa",
-    "description": "Hot Swapping for Laravel Eloquent",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mior Muhammad Zaki",
-            "email": "crynobone@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Laravie\\Dhosa\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Laravie\\Dhosa\\Tests\\": "tests/"
-        }
-    },
-    "require": {
-        "php": "^7.3 || ^8.0",
-        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
-    },
-    "require-dev": {
-        "laravel/legacy-factories": "^1.0.4",
-        "orchestra/canvas": "^4.5 || ^5.0 || ^6.0",
-        "orchestra/support-core": "^4.0 || ^5.0 || ^6.0",
-        "orchestra/testbench": "^4.8 || ^5.2 || ^6.0"
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev"
+  "name": "laravie/dhosa",
+  "description": "Hot Swapping for Laravel Eloquent",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mior Muhammad Zaki",
+      "email": "crynobone@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Laravie\\Dhosa\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Laravie\\Dhosa\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "illuminate/database": "^6.0 || ^7.0 || ^8.0 || ^9.0"
+  },
+  "require-dev": {
+    "laravel/legacy-factories": "^1.0.4",
+    "orchestra/canvas": "^4.5 || ^5.0 || ^6.0 || ^7.0",
+    "orchestra/support-core": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+    "orchestra/testbench": "^4.8 || ^5.2 || ^6.0 || ^7.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
 }
