@@ -15,6 +15,15 @@ To install through composer, run the following command from terminal:
 
     composer require "laravie/dhosa"
 
+## Version Compatibility
+
+| Dhosa Version | Laravel Version | PHP Version |
+|---------------|-----------------|-------------|
+| 1.x           | 6.x - 9.x       | ^7.3 \|\| ^8.0 |
+| 3.x           | 9.x - 10.x      | ^8.1 \|\| ^8.2 |
+
+> **Note:** Version 2.x was skipped to align with Laravel's version numbering. The 3.x branch introduces Laravel 10 and PHP 8.2 support.
+
 ## Usages
 
 ### Enable Hot-Swap
